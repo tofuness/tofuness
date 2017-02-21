@@ -10,6 +10,10 @@
     "webpack:dev": "better-npm-run webpack:dev",
     "webpack:build": "better-npm-run webpack:build"
   },
+  "engines": {
+    "node": "7.5.0",
+    "yarn": "0.20.3"
+  },
   "betterScripts": {
     "webpack:dev": {
       "command": "webpack-dev-server --hot --inline --config webpack.config.js",
