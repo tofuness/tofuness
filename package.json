@@ -6,7 +6,7 @@
   "author": "Dennis Jin <dennis@tofuness.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "install": "yarn run webpack:build",
+    "postinstall": "yarn run webpack:build",
     "webpack:dev": "better-npm-run webpack:dev",
     "webpack:build": "better-npm-run webpack:build"
   },
