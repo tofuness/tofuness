@@ -1,0 +1,22 @@
+@media (max-width: 800px) {
+  #site {
+    padding: 0 50px;
+    width: 100%;
+  }
+  #header-background {
+    display: none;
+  }
+  .section-title {
+    display: none;
+  }
+  .project-title {
+    float: none;
+  }
+  .project-desc {
+    float: none;
+    display: block;
+  }
+  .project-status {
+    display: none;
+  }
+}

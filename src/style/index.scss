@@ -1,0 +1,46 @@
+@import 'reset.css';
+
+* {
+  box-sizing: border-box;
+  line-height: 1;
+}
+.futura {
+  font-family: 'futura-pt', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.jun {
+  font-family: 'a-otf-jun-pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.heisei {
+  font-family: 'heisei-kaku-gothic-std', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.nimbus {
+  font-family: 'nimbus-sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.ts {
+  transition: all 320ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+$black: #2c2c2a;
+$gray: #7a7a7a;
+$blue: #003cff;
+$yellow: #ffcc00;
+$red: #ff3a26;
+
+@import 'main.scss';
+@import 'mobile.scss';
+
